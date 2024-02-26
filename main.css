@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-size: 4rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+a{
+    background-color: lightgreen;
+    border-radius: 50rem;
+    width:10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: darkslategray;
+    text-decoration: none;
+    animation: anim-box 2s infinite ease-in-out;
+    
+}
+@keyframes anim-box {
+    0%{
+        box-shadow: 0 0 15px 0 rgb(149, 244, 149, .5);
+    }
+    40%{
+        box-shadow: 0 0 30px 10px rgb(149, 244, 149, .5);
+    }
+    70%{
+        box-shadow: 0 0 30px 10px rgb(149, 244, 149, .5);
+    }
+    100%{
+        box-shadow: 0 0 15px 0 rgb(149, 244, 149, .5);
+    }
+}
